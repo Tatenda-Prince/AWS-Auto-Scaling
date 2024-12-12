@@ -33,6 +33,7 @@ Navigate to VPC dashboard and click “Create VPC”. Continue by naming your VP
 
 ## Create Subnets
 Navigate to “Subnets” in the left pane of the VPC dashboard. Click “Create subnets”, then select our newly created VPC from the list. Name your subnet, then choose the Availability Zone (AZ) and assigned IPv4 CIDR block. For the first subnet, we will use AZ us-east-1a and CIDR block 10.10.1.0/24. For the second subnet, use AZ us-east-1b and CIDR block 10.10.2.0/24. Lastly, for subnet three, use AZ us-east-1c and CIDR block 10.10.3.0/24.
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/6351f7adc17cbf49304aaa08608f5cc0d3500a61/Screenshot%202024-11-11%20183848.png)
 
 
 
