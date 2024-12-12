@@ -176,6 +176,9 @@ You should also be able to connect to one of your instances through the applicat
 
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/157cadbdd3f2e87d7870be7db0d4d2b7b3132740/Screenshot%202024-11-12%20192819.png)
 
+Congratulations!
+You’ve just successfully completed “Scaling The Clouds”. You’ve created an Auto Scaling Group of EC2 Web Servers for high availability!
+
 
 
 
