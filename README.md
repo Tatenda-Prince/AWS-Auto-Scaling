@@ -56,6 +56,10 @@ Navigate to your VPC dashboard, select “Internet Gateway”, then “Create a 
 
 On the Internet Gateway dashboard, select your Internet Gateway, click “Actions”, then “Attach to VPC”. Select your VPC, then attach the Internet Gateway, a shown below.
 
+![images alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/1109475b29cf0dcfb322972755f6f75a603f37a6/Screenshot%202024-11-11%20184437.png)
+
+Your Internet Gateway’s state should now read “Attached” with the VPC ID of our previously created VPC, as shown below
+
 
 
 
