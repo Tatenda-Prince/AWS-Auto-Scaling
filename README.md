@@ -29,5 +29,6 @@ You are a Cloud Engineer for Tatenda Tech, tasked to build a highly available Ap
 
 ## Step 1: Setup VPC and subnets
 Navigate to VPC dashboard and click “Create VPC”. Continue by naming your VPC, then add the IPv4 CIDR block. We will be using 10.10.0.0/16, as seen below. You can now “Create VPC”.
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/092fe7f219f885431c71d04e3895077f9e4fe832/Screenshot%202024-11-11%20183616.png)
 
 
