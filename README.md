@@ -131,6 +131,12 @@ Continue to the “Advanced details”. Expand the settings, then scroll down to
 
 Copy the bash script below, paste it in the user data field, then “create launch template” 
 
+## Step 5: Create an Autoscaling Group (ASG)
+Configure new ASG launch options
+After creating the launch template, in the following window, click “Create Auto Scaling group”, as show below. Scroll down, select “Auto scaling groups” in the left pane, then “Create auto scaling group”.
+
+![iamge alt]()
+
 
 
 
