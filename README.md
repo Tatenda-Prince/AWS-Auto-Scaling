@@ -165,6 +165,11 @@ Continue until you get to the review page. Review the final configurations, then
 
 Navigate to your EC2 dashboard and verify that there are two running EC2 Instances created by your ASG.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/b2b2c96631696eb9fdba45554b0ef208bb080143/Screenshot%202024-11-11%20192447.png)
+
+## Step 6: Connect to Servers running Apache Web Server
+Retrieve the public IP Address of each of the EC2 Instance from the Amazon EC2 dashboard “Networking” tab, copy and paste it in the address bar of your preferred browser. Your browser should display the Apache Web Server default Webpage, as seen below.
+
 ![image alt]()
 
 
