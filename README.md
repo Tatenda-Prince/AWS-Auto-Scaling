@@ -87,6 +87,8 @@ Head over to your EC2 dashboard, navigate to the left side, then scroll down. Se
 
 We will choose to create an Application Load Balancer. Name the Load Balancer and keep the rest of the default basic configurations. Continue on to Network mappings, choose your VPC then select the three AZ’s with your three subnets, as shown below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/e9e3b6108215bb1f1ab0cf35cb209e7814da200d/Screenshot%202024-11-11%20185401.png)
+
 
 
 
