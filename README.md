@@ -60,6 +60,13 @@ On the Internet Gateway dashboard, select your Internet Gateway, click “Action
 
 Your Internet Gateway’s state should now read “Attached” with the VPC ID of our previously created VPC, as shown below
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/8d5970df94d42f8df4f2e2243ed4c2af9dd09153/Screenshot%202024-11-11%20184455.png)
+
+Configure route tables
+Navigate to “Route tables” and “Create route table”. Name the route table, choose the VPC, then “Create route table”.
+
+![image alt]()
+
 
 
 
