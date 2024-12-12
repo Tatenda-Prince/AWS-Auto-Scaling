@@ -174,6 +174,8 @@ Retrieve the public IP Address of each of the EC2 Instance from the Amazon EC2 d
 
 You should also be able to connect to one of your instances through the application load balancer’s domain name. You can retrieve this by navigating to your previously created load balancer, copying the DNS name, then pasting it in your browser’s address bar, as seen below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/157cadbdd3f2e87d7870be7db0d4d2b7b3132740/Screenshot%202024-11-12%20192819.png)
+
 
 
 
