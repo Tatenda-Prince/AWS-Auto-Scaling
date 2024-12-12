@@ -69,6 +69,10 @@ Navigate to “Route tables” and “Create route table”. Name the route tabl
 
 In your Route table dashboard, select the “Subnet associations” tab, then edit the explicit subnet associations —
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/611fc04a701cce3ccfd2782cae8a752cebb246b6/Screenshot%202024-11-11%20184803.png)
+
+Add all three subnets to the associations, then save the associations.
+
 ![image alt]()
 
 
