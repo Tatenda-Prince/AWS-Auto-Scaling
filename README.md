@@ -29,14 +29,21 @@ You are a Cloud Engineer for Tatenda Tech, tasked to build a highly available Ap
 
 ## Step 1: Setup VPC and subnets
 Navigate to VPC dashboard and click “Create VPC”. Continue by naming your VPC, then add the IPv4 CIDR block. We will be using 10.10.0.0/16, as seen below. You can now “Create VPC”.
+
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/092fe7f219f885431c71d04e3895077f9e4fe832/Screenshot%202024-11-11%20183616.png)
 
 ## Create Subnets
 Navigate to “Subnets” in the left pane of the VPC dashboard. Click “Create subnets”, then select our newly created VPC from the list. Name your subnet, then choose the Availability Zone (AZ) and assigned IPv4 CIDR block. For the first subnet, we will use AZ us-east-1a and CIDR block 10.10.1.0/24. For the second subnet, use AZ us-east-1b and CIDR block 10.10.2.0/24. Lastly, for subnet three, use AZ us-east-1c and CIDR block 10.10.3.0/24.
+
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/6351f7adc17cbf49304aaa08608f5cc0d3500a61/Screenshot%202024-11-11%20183848.png)
 
 After configuring all three subnets, click “Create subnets”. You should be able to see all 3 subnets created and “Available”, as seen below.
+
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/894ae903d2c93520df67a12055a33a708089cf15/Screenshot%202024-11-11%20184149.png)
+
+We need to enable each subnet to automatically receive a public IP address so we can send and receive traffic over the internet. To accomplish this, select one of your subnets, then navigate to “Actions” and click “Edit subnet settings”. Enable “Auto-assign public address”, then save the changes. Make sure to do this with all 3 subnets.
+
+![image alt]()
 
 
 
