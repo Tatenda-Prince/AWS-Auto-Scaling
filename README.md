@@ -137,6 +137,12 @@ After creating the launch template, in the following window, click “Create Aut
 
 ![iamge alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/4013148a7cbbadb46afb7680659b5a7d6c1f73ad/Screenshot%202024-11-11%20191112.png)
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/1dca7164cefa10265f958ef90f0f33bd538bfe0a/Screenshot%202024-11-11%20191244.png)
+
+Name the Auto scaling group, select the launch template previously created, then click “Next”.
+
+Select our previously created VPC, add the three of our subnets, as seen below, then click “Next”.
+
 ![image alt]()
 
 
