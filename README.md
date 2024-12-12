@@ -73,7 +73,13 @@ In your Route table dashboard, select the “Subnet associations” tab, then ed
 
 Add all three subnets to the associations, then save the associations.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/46daab140a8fdcf8011cfaa1cc90c22d99c8e1fb/Screenshot%202024-11-11%20184823.png)
+
+Let’s now edit the route table to have access to the internet though our Internet Gateway. Click on the “Routes” tab, “Edit routes”, then “Add route”. We will add a route that will direct all other addresses destined outside our network, to our newly created Internet Gateway through to the internet, as seen below.
+
 ![image alt]()
+
+
 
 
 
