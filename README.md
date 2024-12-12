@@ -92,6 +92,14 @@ We will choose to create an Application Load Balancer. Name the Load Balancer an
 Create security group
 Proceed to the Security group setting, then create a new security group. Name your security group and make sure your previously created VPC is selected. Add an inbound rule to allow HTTP traffic from Anywhere (0.0.0.0/0), as seem below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/6ad05e90205b8a92dd4078ca16a436a65f6c1ab3/Screenshot%202024-11-11%20190035.png)
+
+Additionally, add another rule of type “SSH” with source from “Anywhere”. Note — this is security risk, however for this article we will allow it for demonstration sake.
+
+We can now proceed to “Create security group”.
+
+Select the newly created security group from the list, as seen below.
+
 ![image alt]()
 
 
