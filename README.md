@@ -170,7 +170,13 @@ Navigate to your EC2 dashboard and verify that there are two running EC2 Instanc
 ## Step 6: Connect to Servers running Apache Web Server
 Retrieve the public IP Address of each of the EC2 Instance from the Amazon EC2 dashboard “Networking” tab, copy and paste it in the address bar of your preferred browser. Your browser should display the Apache Web Server default Webpage, as seen below.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/51b7786d25233a0fead6b71a6e033f5963f4723b/Screenshot%202024-11-12%20192719.png)
+
+You should also be able to connect to one of your instances through the application load balancer’s domain name. You can retrieve this by navigating to your previously created load balancer, copying the DNS name, then pasting it in your browser’s address bar, as seen below.
+
+
+
+
 
 
 
