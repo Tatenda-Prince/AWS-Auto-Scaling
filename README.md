@@ -77,7 +77,16 @@ Add all three subnets to the associations, then save the associations.
 
 Let’s now edit the route table to have access to the internet though our Internet Gateway. Click on the “Routes” tab, “Edit routes”, then “Add route”. We will add a route that will direct all other addresses destined outside our network, to our newly created Internet Gateway through to the internet, as seen below.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/c86f8448c0dc7770e59c772af5ae4e6d6ba549cf/Screenshot%202024-11-11%20185006.png)
+
+We now have an Internet Gateway and a configured Route Table. Let’s proceed to Step 3— Application Load Balancer!
+
+## Step 3: Launch a configure application load balancer
+Configure network mappings
+Head over to your EC2 dashboard, navigate to the left side, then scroll down. Select “Load Balancers”, then “Create load balancer”.
+
+We will choose to create an Application Load Balancer. Name the Load Balancer and keep the rest of the default basic configurations. Continue on to Network mappings, choose your VPC then select the three AZ’s with your three subnets, as shown below.
+
 
 
 
