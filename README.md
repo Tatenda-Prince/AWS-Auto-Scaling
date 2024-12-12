@@ -89,6 +89,11 @@ We will choose to create an Application Load Balancer. Name the Load Balancer an
 
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/e9e3b6108215bb1f1ab0cf35cb209e7814da200d/Screenshot%202024-11-11%20185401.png)
 
+Create security group
+Proceed to the Security group setting, then create a new security group. Name your security group and make sure your previously created VPC is selected. Add an inbound rule to allow HTTP traffic from Anywhere (0.0.0.0/0), as seem below.
+
+![image alt]()
+
 
 
 
