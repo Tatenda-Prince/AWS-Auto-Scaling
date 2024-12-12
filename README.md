@@ -43,7 +43,17 @@ After configuring all three subnets, click “Create subnets”. You should be a
 
 We need to enable each subnet to automatically receive a public IP address so we can send and receive traffic over the internet. To accomplish this, select one of your subnets, then navigate to “Actions” and click “Edit subnet settings”. Enable “Auto-assign public address”, then save the changes. Make sure to do this with all 3 subnets.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/d3b8ab56dfbcd659cf09db95cb2b6e12d6735547/Screenshot%202024-11-11%20184223.png)
+
+Now that we’ve created and configured our VPC and 3 subnets, we can proceed to Step 2 — Internet Gateway and Route Tables!
+
+## Step 2: launch Internet gateway and configure route tables
+
+Create Internet Gateway and attach to VPC
+Navigate to your VPC dashboard, select “Internet Gateway”, then “Create a new gateway”. Name the Internet Gateway and proceed to “Create internet gateway”.
+
 ![image alt]()
+
 
 
 
