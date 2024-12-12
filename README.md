@@ -24,6 +24,11 @@ Launch Templates contain pre-configuration information used to launch resources 
 # High Availability
 High availability refers to the elimination of single points of failure to enable infrastructures to continue operating, even if a component it depends on fails.
 
-
 ## Use Case 
 You are a Cloud Engineer for Tatenda Tech, tasked to build a highly available Apache Web Servers cloud infrastructure. The infrastructure needs to have a minimum of 2 servers running at all times. Additionally, it must have the capability to scale out and increase to a maximum of 5 servers when the average CPU utilization increases to 50%.
+
+## Step 1: Setup VPC and subnets
+#Create VPC
+Navigate to VPC dashboard and click “Create VPC”. Continue by naming your VPC, then add the IPv4 CIDR block. We will be using 10.10.0.0/16, as seen below. You can now “Create VPC”.
+
+
