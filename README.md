@@ -118,6 +118,12 @@ Navigate to your EC2 dashboard, on the left, click “Launch Templates”, then 
 
 Name the launch template, select the Amazon Linux AMI that’s part of AWS free tier by clicking the “Quick Start” tab, then choosing the AMI. Choose the “t2.micro” instance type, as shown below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/fa9cb9cd99ee99444b846628731c93eb542d24ba/Screenshot%202024-11-11%20190714.png)
+
+Proceed to create a new key pair to enable you to authenticate via SSH into our EC2 Instances. Save the key pair “.pm” file to your local machine in a safe location. Remember, you can also use a previously created key pair.
+
+Continue to “Network settings” and select our previously created load balancer security group, as shown below.
+
 ![image alt]()
 
 
