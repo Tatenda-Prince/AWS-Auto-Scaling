@@ -65,7 +65,12 @@ Your Internet Gateway’s state should now read “Attached” with the VPC ID o
 Configure route tables
 Navigate to “Route tables” and “Create route table”. Name the route table, choose the VPC, then “Create route table”.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/5edcba747c22eb2f4d9017e9e0a32c959a135a21/Screenshot%202024-11-11%20184557.png)
+
+In your Route table dashboard, select the “Subnet associations” tab, then edit the explicit subnet associations —
+
 ![image alt]()
+
 
 
 
