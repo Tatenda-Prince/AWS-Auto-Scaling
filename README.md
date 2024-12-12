@@ -143,6 +143,11 @@ Name the Auto scaling group, select the launch template previously created, then
 
 Select our previously created VPC, add the three of our subnets, as seen below, then click “Next”.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/93d59e1d91243c4a979c92b57862c4a1c3023137/Screenshot%202024-11-11%20191602.png)
+
+Configure load balancing options
+Select “Attached to and exiting load balancer”, then choose our previously created load balancer’s target group, as shown below.
+
 ![image alt]()
 
 
