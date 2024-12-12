@@ -52,7 +52,9 @@ Now that we’ve created and configured our VPC and 3 subnets, we can proceed to
 Create Internet Gateway and attach to VPC
 Navigate to your VPC dashboard, select “Internet Gateway”, then “Create a new gateway”. Name the Internet Gateway and proceed to “Create internet gateway”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/f2ef534710b604cadff424962bfc99cd255d849a/Screenshot%202024-11-11%20184410.png)
+
+On the Internet Gateway dashboard, select your Internet Gateway, click “Actions”, then “Attach to VPC”. Select your VPC, then attach the Internet Gateway, a shown below.
 
 
 
