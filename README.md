@@ -159,6 +159,14 @@ In additional settings, “enable group metric collection within CloudWatch”.
 Configure ASG Group size and CloudWatch Monitoring
 As our use case states, we will set our desired and minimum capacity to 2. Our maximum capacity will be set to 5. Select “Target scaling policy” and make sure the metric type is “Average CPU utilization” and “Target value” is set to 50, then click “Next”.
 
+![images alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/c8f24a708f7826e4249b12e41c0e38e750947a31/Screenshot%202024-11-11%20191959.png)
+
+Continue until you get to the review page. Review the final configurations, then “Create auto scaling group”. You should be able to see your ASG with a status of “updating capacity..” as it launches your EC2 Instances according to the pre-set configurations.
+
+Navigate to your EC2 dashboard and verify that there are two running EC2 Instances created by your ASG.
+
+![image alt]()
+
 
 
 
