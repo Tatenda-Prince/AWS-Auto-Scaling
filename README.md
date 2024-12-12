@@ -148,7 +148,15 @@ Select our previously created VPC, add the three of our subnets, as seen below, 
 Configure load balancing options
 Select “Attached to and exiting load balancer”, then choose our previously created load balancer’s target group, as shown below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/237052db629fcbf1bfc2c6eaf23d63a5a128a723/Screenshot%202024-11-11%20191707.png)
+
+Proceed to health checks and change the grace period to 120 seconds (2 minutes), as seen below. With health checks enabled, the load balancer is able to periodically send request to check the status of our EC2 Instances and determine whether an instance is capable of performing work successfully.
+
+In additional settings, “enable group metric collection within CloudWatch”.
+
 ![image alt]()
+
+
 
 
 
