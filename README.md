@@ -154,7 +154,13 @@ Proceed to health checks and change the grace period to 120 seconds (2 minutes),
 
 In additional settings, “enable group metric collection within CloudWatch”.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/8356e53dbee210a28b335fe0fe8c41496e74277d/Screenshot%202024-11-11%20191831.png)
+
+Configure ASG Group size and CloudWatch Monitoring
+As our use case states, we will set our desired and minimum capacity to 2. Our maximum capacity will be set to 5. Select “Target scaling policy” and make sure the metric type is “Average CPU utilization” and “Target value” is set to 50, then click “Next”.
+
+
+
 
 
 
