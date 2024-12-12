@@ -36,6 +36,7 @@ Navigate to “Subnets” in the left pane of the VPC dashboard. Click “Create
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/6351f7adc17cbf49304aaa08608f5cc0d3500a61/Screenshot%202024-11-11%20183848.png)
 
 After configuring all three subnets, click “Create subnets”. You should be able to see all 3 subnets created and “Available”, as seen below.
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/894ae903d2c93520df67a12055a33a708089cf15/Screenshot%202024-11-11%20184149.png)
 
 
 
