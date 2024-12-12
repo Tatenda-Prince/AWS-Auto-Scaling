@@ -124,7 +124,12 @@ Proceed to create a new key pair to enable you to authenticate via SSH into our 
 
 Continue to “Network settings” and select our previously created load balancer security group, as shown below.
 
-![image alt]()
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/acadfcd4bb7451fa148f982043abf1452855c201/Screenshot%202024-11-11%20190849.png)
+
+Bootstrap EC2 Instance to launch with Apache Web Server
+Continue to the “Advanced details”. Expand the settings, then scroll down to add the user data to install, start and enable the Apache Web Server. We will also install other software to enable us to stress test an EC2 Instance.
+
+Copy the bash script below, paste it in the user data field, then “create launch template” 
 
 
 
