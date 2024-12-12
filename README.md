@@ -108,7 +108,18 @@ Continue to “Listeners and routing”. Make sure the listener Protocol is set 
 
 We can now select our newly created target group, as shown below.
 
+![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/cc41554fefb1dd6c17a33dcf646f122b10340807/Screenshot%202024-11-11%20190323.png)
+
+Scroll to the bottom, review the summary then “Create load balancer”. Now let’s continue to Step 4 — Launch Template!
+
+## Step 4: Create Launch Template
+Configure Launch Template
+Navigate to your EC2 dashboard, on the left, click “Launch Templates”, then “Create launch template”.
+
+Name the launch template, select the Amazon Linux AMI that’s part of AWS free tier by clicking the “Quick Start” tab, then choosing the AMI. Choose the “t2.micro” instance type, as shown below.
+
 ![image alt]()
+
 
 
 
