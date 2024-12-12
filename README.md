@@ -31,4 +31,8 @@ You are a Cloud Engineer for Tatenda Tech, tasked to build a highly available Ap
 Navigate to VPC dashboard and click “Create VPC”. Continue by naming your VPC, then add the IPv4 CIDR block. We will be using 10.10.0.0/16, as seen below. You can now “Create VPC”.
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/092fe7f219f885431c71d04e3895077f9e4fe832/Screenshot%202024-11-11%20183616.png)
 
+## Create Subnets
+Navigate to “Subnets” in the left pane of the VPC dashboard. Click “Create subnets”, then select our newly created VPC from the list. Name your subnet, then choose the Availability Zone (AZ) and assigned IPv4 CIDR block. For the first subnet, we will use AZ us-east-1a and CIDR block 10.10.1.0/24. For the second subnet, use AZ us-east-1b and CIDR block 10.10.2.0/24. Lastly, for subnet three, use AZ us-east-1c and CIDR block 10.10.3.0/24.
+
+
 
