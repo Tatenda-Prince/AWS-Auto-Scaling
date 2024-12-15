@@ -2,6 +2,9 @@
 ## Create Auto Scaling group of EC2 Instance for High Availability 
 ![image alt](https://github.com/Tatenda-Prince/AWS-Auto-Scaling/blob/8aa726fa1043c54f875b8fcf3ba8131f0875eb64/ASG%20image.png)
 
+#Intro
+Together, we will “Scale the Clouds” by following the steps to creating an Auto Scaling Group (ASG) of Amazon EC2 Instances for high availability. We will literally be building a cloud infrastructure from ground up, so expect the use of many different AWS resources.
+
 ## Background 
 # Virtual Private Cloud (VPC)
 Virtual Private Cloud is a service on AWS that offers a virtual private network, logically isolated from other virtual networks on the platform.
